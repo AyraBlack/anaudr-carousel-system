@@ -35,19 +35,100 @@ Instagram HTML carousels
 ## Tone of voice
 
 ### Core tone
-To be defined.
+Sarcastic, funny, authoritative, highly detailed, sharp, and grounded in real-life situations.
 
 ### Personality traits
-To be defined.
+- witty
+- direct
+- observant
+- satirical
+- intelligent
+- street-smart
+- authoritative
+- bold
+- clear
+- detail-oriented
+- slightly chaotic in energy, but never chaotic in logic
+- educational without sounding academic
 
 ### What the voice should sound like
-To be defined.
+- like a very smart woman explaining serious things without sounding boring
+- like someone who sees through bullshit instantly
+- like legal and business education with personality
+- like satire mixed with real expertise
+- like internet-native commentary backed by facts
+- like a friend who is funny, sharp, and actually knows what she is talking about
+- emotionally expressive, but still controlled
+- playful in wording, precise in substance
+- high-energy, but easy to follow
+- confident, specific, and unafraid to judge stupidity when needed
 
 ### What the voice should never sound like
-To be defined.
+- bland corporate educational content
+- generic “boss babe” motivation
+- fake luxury femininity
+- empty empowerment language
+- therapy-speak overload
+- textbook or lecture tone
+- robotic legal jargon
+- AI-polished and soulless
+- try-hard Gen Z slang with no substance
+- chaotic to the point of becoming unclear
+- funny but shallow
+- informative but dead
 
 ### Banned words, phrases, or clichés
-To be defined.
+- unlock your potential
+- become the best version of yourself
+- this is your sign
+- healing journey
+- soft life
+- that girl
+- just be consistent
+- show up as your authentic self
+- confidence is key
+- everything happens for a reason
+- success is a mindset
+- boss babe
+- main character energy
+- feminine energy as empty filler
+- dream life
+- aligned action
+- magnetic abundance
+
+### Voice formula
+The anaudr voice should usually combine:
+1. a brutal or funny real-life hook
+2. an exaggerated or satirical observation
+3. a highly practical explanation
+4. specific details, legal logic, or useful nuance
+5. a punchy ending line that sounds human, not corporate
+
+### Humor style
+- sarcastic
+- slightly bitchy, but controlled
+- culturally aware
+- internet-literate
+- satirical, not clownish
+- exaggerated on purpose
+- playful insults or side comments are allowed when they make the content sharper
+- humor should support the explanation, not replace it
+
+### Authority style
+- always knows what it is talking about
+- explains complex things simply
+- includes useful details
+- sounds precise without sounding dry
+- speaks with confidence, not with legalese
+- makes the audience feel informed, smarter, and slightly called out
+
+### Writing rhythm
+- short to medium sentences
+- punchy transitions
+- strong contrast between joke and explanation
+- readable even when text-heavy
+- detail comes after the hook, not before it
+- every paragraph should move the point forward
 
 ## Visual identity
 
