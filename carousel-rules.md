@@ -269,6 +269,8 @@ Use for:
 - numbered ideas
 - mini headers
 
+Navigation cues such as “swipe” or “vezi mai departe” should be designed as small chips, pills, or branded UI cues, not plain loose text.
+
 ## Emoji rules
 
 Emojis are allowed as:
@@ -541,6 +543,14 @@ Use cards especially for:
 - important data points
 
 If a line feels too important to be plain body text, it probably deserves a card or callout.
+
+When a slide uses multiple cards, prefer card modules with:
+- a clear visual anchor such as centered icon or emoji
+- larger readable text
+- text placed below the icon when that improves hierarchy
+- enough spacing to feel premium, not cramped
+
+Cards should feel like designed modules, not text boxes.
 
 ### Takeaway placement rule
 Strong concluding phrases should not be thrown in as plain quotes by default.
