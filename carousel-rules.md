@@ -668,3 +668,31 @@ Prefer:
 - stronger accent only for key contrast words, big numbers, or punch phrases
 
 Do not make the whole slide fight for attention.
+
+## Premium card hierarchy rule
+
+When a slide uses cards, prefer a 3-layer card hierarchy when appropriate:
+
+1. icon or emoji
+2. subtitle / label / lead phrase in accent color
+3. main explanatory text
+
+This structure is preferred over flat cards with only text.
+
+### Card behavior
+Cards should often include:
+- one visual anchor at the top or left
+- one short colored subtitle or lead phrase
+- one main text block underneath
+
+### Color behavior inside cards
+The subtitle or lead phrase may use:
+- orange
+- coral
+- yellow
+- blue/cyan when appropriate in dark mode
+
+The colored subtitle should create hierarchy, not decoration.
+
+### Goal
+Cards should feel like premium information modules, not simple dark text boxes.
