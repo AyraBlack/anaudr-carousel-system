@@ -343,6 +343,19 @@ The footer may include:
 
 The footer should feel structured, quiet, and consistent.
 
+### Footer divider consistency rule
+
+If a carousel uses a footer divider, it must be consistent across all standard slides.
+
+This includes:
+- same horizontal position
+- same width
+- same opacity
+- same stroke or border style
+- same spacing from bottom content and footer text
+
+Do not let the divider appear on some standard slides and disappear on others unless there is a deliberate exception for the cover or final CTA slide.
+
 ## Slide number rules
 
 Slide numbers are mandatory from slide 2 to the final slide.
@@ -634,6 +647,19 @@ Prefer:
 - soft tinted card backgrounds
 - warm off-white instead of pure white
 - restrained accent hierarchy
+
+### Premium depth rule
+
+Cards, quote blocks, panels, and modules should not feel flat by default.
+
+Prefer:
+- soft outer shadows
+- subtle inner glow or tinted depth
+- dark backgrounds with slight tonal variation
+- elegant separation from the background
+- restrained glow or edge lighting where useful
+
+The goal is atmospheric premium depth, not flat boxes and not cheesy neon.
 
 ### Background behavior
 Use layered dark backgrounds such as:
