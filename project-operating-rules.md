@@ -159,3 +159,43 @@ Ask internally:
 - Should bullets become emoji rows, chips, or grouped items?
 
 Avoid dry slide-deck composition in both dark and pastel mode.
+
+## Preview format rule
+
+When previewing slides, do not preview them as plain text drafts only.
+
+For each previewed slide, provide:
+
+- slide role
+- layout concept
+- hero element
+- supporting components
+- sample wording
+
+The AI must think in layout units, not only in copy units.
+
+### Required preview structure for each slide
+- Slide role: what job this slide does
+- Layout concept: what kind of slide this is visually
+- Hero element: the one thing that should dominate visually
+- Supporting components: cards, chips, rows, quote blocks, comparison blocks, icon lists, etc.
+- Sample wording: draft text adapted to that layout
+
+The AI must not use arrows, plain bullets, or default list formatting when the content clearly wants cards, chips, rows, or grouped blocks.
+
+### Example
+Bad preview:
+"Agențiile trebuie să monitorizeze fiecare muncitor 2 ani. → Vizite trimestriale..."
+
+Good preview:
+- Slide role: operational burden reveal
+- Layout concept: hero stat + obligation cards
+- Hero element: "2 ani"
+- Supporting components: one support line + 3 obligation cards
+- Sample wording:
+  - Hero: "2 ani"
+  - Support line: "Atât trebuie să monitorizeze agențiile muncitorii."
+  - Cards:
+    1. "Vizite trimestriale la locul de muncă"
+    2. "Raportare la orice suspiciune de exploatare"
+    3. "Dacă lipsește 5 zile nemotivat, notifici autoritățile în 3 zile"
