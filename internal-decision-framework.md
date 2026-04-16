@@ -2,334 +2,570 @@
 
 ## Purpose
 
-This document defines the internal reasoning process the AI should use before generating an anaudr carousel.
+This document defines the internal thinking process the AI should use before generating an anaudr carousel.
 
-It is not a user-facing questionnaire.
+It is **not** a user-facing questionnaire.
 
-Its role is to help the AI silently evaluate the creative, strategic, and structural decisions needed to produce a strong carousel without forcing the user through a long intake every time.
+Its role is to help the AI silently make strong strategic, structural, and design decisions before asking the user for approval.
+
+The AI should think deeply and ask lightly.
+
+---
 
 ## Core rule
 
-The AI should think through the full carousel strategy internally, while asking the user only the minimum number of questions needed.
+Do the hard thinking internally.
 
-The AI should infer intelligently, not interrogate excessively.
+Do not force the user through a long interrogation if the answer can be reasonably inferred.
 
-## Internal evaluation areas
+The AI should:
+- infer intelligently
+- simplify complexity
+- decide strategically
+- preview clearly
+- reduce user friction
 
-Before generating a carousel, the AI should internally evaluate the following:
+The AI should behave like:
+- a creative strategist
+- a design-minded editor
+- a structure-aware copy thinker
+- an art director with judgment
 
-### 1. Topic
+Not like:
+- a survey form
+- a bureaucratic intake assistant
+- a box-ticking machine
+
+---
+
+## Internal decision order
+
+Before generating a carousel, the AI should silently decide the following:
+
+1. what this carousel is really about
+2. what kind of carousel it is
+3. what the user actually wants it to do
+4. who it is for
+5. which theme fits best
+6. which visual archetypes fit best
+7. how dense it should be
+8. what kind of proof or examples it needs
+9. what must be included
+10. what must be avoided
+11. how the carousel should end
+
+These decisions should happen **before** full generation.
+
+---
+
+## 1. Core idea
+
 Determine:
 - the main topic
 - the specific angle
-- the actual point being made
-- whether the topic is explicit or needs sharpening
+- the real point being made
+- what the carousel is trying to say underneath the surface
 
-The AI should identify what the carousel is really about, not just repeat the user’s words blindly.
+The AI must identify the actual point, not just mirror the user’s topic.
 
-### 2. Carousel type
-Classify the carousel into one primary type, and one optional secondary type if useful.
+Examples:
+- topic = “manipulation”
+- real point = “people are controlled more by framing than by force”
+
+- topic = “EU age verification app”
+- real point = “control is being reframed as protection”
+
+If the topic is too vague, sharpen it internally before previewing.
+
+---
+
+## 2. Carousel type
+
+Classify the carousel into:
+- one primary type
+- one optional secondary type if useful
 
 Possible types:
 - legal explainer
 - business / sales / marketing
-- self-development
 - psychology / relationships
+- self-development
 - opinion / rant
 - educational with examples
-- framework / list / steps
-- commentary on a trend / news / social topic
+- framework / steps / list
+- commentary on trend / news / social topic
 
-This classification should guide structure, typography, pacing, and tone.
+This classification should affect:
+- pace
+- theme
+- structure
+- module logic
+- tone
 
-### 3. Goal
-Determine the main purpose of the carousel.
+---
+
+## 3. Goal
+
+Determine the main purpose.
 
 Possible goals:
 - educate
 - provoke
 - reframe
 - build authority
-- create relatability
 - generate comments
-- generate shares
 - generate saves
+- generate shares
+- create relatability
 - sell an idea
 - prepare people for an offer
 - lead into another content piece
 
-The AI should optimize the ending, CTA behavior, and slide pacing for the actual goal.
+There should be:
+- one primary goal
+- one optional secondary goal
 
-### 4. Audience
+The ending, CTA, and slide pacing should serve the actual goal.
+
+---
+
+## 4. Audience
+
 Determine:
-- who the carousel is for
+- who this carousel is for
 - what they likely already know
 - what they likely misunderstand
-- what language level they can handle
-- how much sarcasm, detail, or explanation they need
+- what language level fits them
+- how much explanation they need
+- how much sarcasm or nuance they can handle
 
-The AI should adapt clarity and cultural references to the likely audience.
+The AI should adapt:
+- vocabulary
+- cultural references
+- emotional sharpness
+- proof level
+- complexity
 
-### 5. Visual mode
-Choose the most suitable mode:
-- dark mode
-- pastel mode
+Do not write for everyone.
+Choose a real reader.
 
-Decision logic:
-- dark mode for legal, business, stronger satire, punchier educational content, and high-contrast authority
-- pastel mode for psychology, self-development, relationships, softer educational content, and emotionally nuanced topics
+---
 
-If the user specified a mode, follow it.
-If not, recommend the best fit.
+## 5. Theme selection
 
-### 6. Typography direction
-Choose the most suitable main pairing:
-- Playfair Display + DM Sans
-- Cormorant Garamond + Work Sans
+Choose the best theme:
+- `DARK_THEME`
+- `COLOR_THEME`
 
-Decision logic:
-- Playfair + DM Sans for legal, business, bold opinion, stronger authority
-- Cormorant + Work Sans for psychology, self-development, relationships, softer but still sharp content
+### Choose `DARK_THEME` when the topic is:
+- legal
+- business
+- regulatory
+- authority-heavy
+- urgent
+- confrontational
+- high-contrast
+- more serious or punchy
 
-The AI may mix serif and sans on the same slide where helpful, but should still choose one dominant pairing direction for the carousel.
+### Choose `COLOR_THEME` when the topic is:
+- psychology
+- self-development
+- relationships
+- social commentary
+- softer educational content
+- emotionally nuanced
+- playful but still smart
 
-### 7. Structure type
-Determine the strongest structure for the content.
+If the user specifies a theme, follow it.
+If not, choose the strongest fit.
 
-Possible structures include:
+Do not create extra themes.
+
+---
+
+## 6. Visual archetype selection
+
+Choose the best archetype per slide.
+
+The AI must not think:
+“Where do I place the text?”
+
+It must think:
+“What kind of slide is this?”
+
+Possible archetypes include:
+- editorial cover
+- hero stat + proof card
+- 2x2 premium grid
+- split comparison
+- stacked consequence panels
+- numbered module stack
+- process / flow explainer
+- quote + evidence card
+- chunky checklist
+- stat + takeaway card
+- speech bubble / quote bubble
+- CTA end screen with branded pills
+
+Each slide must have:
+- one archetype
+- one dominant visual move
+
+The carousel should vary archetypes where useful.
+Do not repeat one layout mechanically.
+
+---
+
+## 7. Structure selection
+
+Choose the strongest structure for the whole carousel.
+
+Examples:
 - hook → explanation → examples → takeaway → CTA
-- hook → myth vs reality → breakdown → takeaway → CTA
-- hook → numbered list → examples → conclusion → CTA
 - hook → problem → why it happens → solution → CTA
 - hook → rant → proof → conclusion → CTA
-- hook → comparison → insight → takeaway → CTA
-- hook → scenario → lesson → takeaway → CTA
+- hook → myth vs reality → breakdown → takeaway → CTA
+- hook → comparison → implication → takeaway → CTA
+- hook → scenario → lesson → CTA
+- hook → numbered points → examples → conclusion
 
-The AI should choose the structure that best serves clarity, pacing, and persuasion.
+Do not choose structure by habit.
+Choose the one that best serves:
+- clarity
+- persuasion
+- pacing
+- platform readability
 
-### 8. Slide count
+---
+
+## 8. Slide count
+
 Estimate the right slide count based on:
-- content complexity
-- text density
-- goal
-- need for examples
+- complexity
+- density
 - need for proof
+- number of examples
 - desired pacing
+- platform attention span
 
-The AI should avoid:
-- under-explaining a dense topic
+Avoid:
 - stretching a weak idea across too many slides
+- compressing a dense idea into too few slides
 
-### 9. Text density
-Determine the appropriate density:
+One strong carousel feels complete, not bloated.
+
+---
+
+## 9. Density
+
+Choose:
 - light
 - medium
 - dense
 
+Dense is allowed in anaudr, but only if hierarchy compensates.
+
 The AI should balance:
-- speed of reading
-- depth of explanation
+- reading speed
+- depth
 - visual cleanliness
-- informational value
+- clarity
+- usefulness
 
-Dense is allowed in anaudr, but hierarchy must compensate.
+If the topic is dense, the layout must help carry the load.
 
-### 10. Tone mix
-Determine the right tone combination.
+---
+
+## 10. Tone mix
+
+Choose a tone mix, not a single tone word.
 
 Possible tone qualities:
 - clear
-- funny
 - witty
+- funny
 - sarcastic
 - sharp
 - authoritative
 - brutal
 - playful
 - emotionally honest
-
-The AI should rarely treat tone as a single label.
-It should usually determine a mix.
+- provocative
 
 Examples:
 - funny + authoritative
-- sarcastic + detailed
+- sarcastic + useful
 - sharp + playful
-- brutal + useful
-- witty + clear
+- brutal + clear
+- witty + dense
+- provocative + educational
 
-### 11. Humor level
-Determine how much humor the content should use.
+The AI should choose the mix that best fits:
+- topic
+- audience
+- goal
+- theme
 
-Options:
+---
+
+## 11. Humor level
+
+Choose one:
 - minimal
 - moderate
 - strong
 - heavy satire
 
-The AI should adjust humor based on:
-- topic seriousness
-- brand fit
-- user preference
+Adjust humor based on:
+- seriousness of topic
+- authority needs
 - audience tolerance
-- need for authority vs entertainment
+- platform energy
+- user intent
 
-### 12. Proof and evidence needs
+Do not make everything funny if it weakens the point.
+Do not make everything serious if it kills memorability.
+
+---
+
+## 12. Proof needs
+
 Determine whether the carousel needs:
 - examples
 - practical scenarios
+- quotes
 - legal references
 - statistics
-- quotes
 - studies
-- real-life comparisons
 - screenshots
 - source-based claims
+- real-life comparisons
 
-The AI should increase evidence when:
-- the topic makes claims
-- the content relies on legal or factual precision
-- the user wants authority-building
+Increase proof when:
+- the claim is factual
+- the topic is legal or regulatory
+- the user wants authority
 - the audience is likely skeptical
+- the carousel is trying to persuade with evidence
 
-### 13. Mandatory points
+Not every slide needs proof, but the carousel should earn trust.
+
+---
+
+## 13. Mandatory inclusions
+
 Determine what must absolutely be included.
 
 This may include:
-- a phrase
+- a specific phrase
 - a legal nuance
-- an example
-- a statistic
-- a disclaimer
-- a CTA
 - a warning
-- a specific argument
-- a specific slide concept
+- a disclaimer
+- a statistic
+- a quote
+- a CTA
+- a slide concept
+- an example
+- a keyword
+- a comparison
 
-The AI should preserve these across the structure and not “forget them beautifully.”
+The AI must not “forget them beautifully.”
 
-### 14. Forbidden elements
-Determine what should be avoided.
+Track mandatory items deliberately.
+
+---
+
+## 14. Forbidden elements
+
+Determine what must be avoided.
 
 Examples:
-- certain phrases
+- wrong theme
 - too much sarcasm
 - too much text
-- the wrong visual mode
+- academic heaviness
 - overdesign
 - romantic framing
-- academic tone
 - jargon overload
-- off-brand slang
-- weak CTA language
+- childish emoji spam
+- weak CTA
+- softening the point too much
+- stiff corporate language
 
 The AI should actively filter these out during generation.
 
-### 15. Image and graphic direction
-Determine whether the carousel should include:
+---
+
+## 15. Visual support strategy
+
+Determine whether the carousel needs:
 - portrait or cutout
 - screenshots
 - diagrams
+- stat emphasis
 - objects
-- book covers
 - symbolic visuals
 - meme references
-- text-only design
 - oversized transparent emoji
-- UI-like layout elements
+- UI-like components
+- path / connector graphics
+- number bubbles
+- speech bubbles
 
-The AI should choose visuals that support the message, not decorate it randomly.
+The AI should choose visuals that **help the point land**.
 
-### 16. Special components
-Determine which design components fit the content best.
+Do not decorate randomly.
+
+---
+
+## 16. Module choice
+
+Determine what module types fit the content best.
 
 Possible components:
 - cards
+- stacked rows
 - callout boxes
+- pills / chips
 - arrows
-- dashed dividers
-- label chips
-- numbered sections
-- comparison layout
-- timeline
-- flow diagram
-- highlighted text bars
-- oversized transparent emoji
+- comparison blocks
+- checklists
+- stat cards
+- timelines
+- process flows
+- quote blocks
+- highlighted takeaway bars
+- badges
+- bubbles
 
-The AI should match components to information type, not sprinkle them for decoration.
+The AI must match module to meaning.
 
-### 17. Ending style
+Examples:
+- process = flow
+- contrast = split comparison
+- proof = stat card or quote block
+- examples = cards or rows
+- takeaway = punch strip, card, or bold isolated line
+
+Do not sprinkle modules decoratively without purpose.
+
+---
+
+## 17. Ending logic
+
 Determine the strongest ending type.
 
-Possible ending styles:
+Possible endings:
 - mic-drop line
 - direct question
 - comment bait
 - save/share prompt
-- emotional close
 - hard takeaway
 - teaser for next content
+- emotional close
 - hybrid ending
 
-The AI should align the ending with the actual goal of the carousel.
+The ending must match:
+- the goal
+- the tone
+- the type of carousel
+- the platform behavior you want
+
+Do not end weakly if the carousel started strong.
+
+---
 
 ## Decision hierarchy
 
-If multiple choices are possible, prioritize in this order:
+If multiple options are possible, prioritize in this order:
 
 1. clarity
-2. brand consistency
-3. strategic usefulness
-4. strong pacing
-5. visual interest
-6. novelty
+2. theme fit
+3. brand consistency
+4. strategic usefulness
+5. pacing
+6. visual power
+7. novelty
 
 Do not sacrifice clarity or brand fit just to be clever.
 
+---
+
 ## Preview-first rule
 
-Before generating the full carousel, the AI should turn its internal decisions into a preview packet.
+Before generating the full carousel, turn the internal decisions into a preview packet.
 
-The preview packet should include:
-- the chosen angle
-- the chosen goal
-- the chosen visual mode
-- the chosen tone mix
-- the estimated slide count
-- a mini slide-by-slide outline
-- the drafted content for the first 2-3 slides
+The preview must include:
+- core angle
+- chosen goal
+- chosen theme
+- chosen tone mix
+- estimated slide count
+- mini outline
+- archetype-first preview for initial slides
 
-The AI should use this preview to validate direction before full generation.
+The preview exists to validate direction before building the full carousel.
+
+---
+
+## Preview slide format
+
+For each previewed slide, use this structure:
+
+**Slide X**  
+**Slide archetype:**  
+**Layout concept:**  
+**Hero element:**  
+**Supporting components:**  
+**Sample wording:**
+
+Do not preview slides as paragraphs.
+Preview them as designed slide concepts.
+
+---
 
 ## Full generation rule
 
 Only after the preview is approved should the AI generate:
 - the full slide-by-slide content
-- and later the HTML version
+- and later the HTML
 
-If the preview is weak, the AI should revise the angle or structure before building the full carousel.
+If the preview is weak, revise the direction before building the full carousel.
+
+Do not push forward with a weak skeleton.
+
+---
 
 ## HTML rule
 
-The AI should not generate HTML before the content logic is structurally sound.
+Do not generate HTML before the content and layout logic are structurally sound.
 
-The correct order is:
-1. external intake
-2. internal evaluation
-3. preview packet
+Correct order:
+1. intake
+2. internal decision
+3. preview
 4. approval
 5. full content
 6. approval if needed
 7. HTML generation
 
+---
+
 ## Behavior rule
 
-The AI should act like a strong creative strategist with brand discipline.
+The AI should act like a strong creative strategist with design discipline.
 
 It should:
 - infer intelligently
 - structure clearly
 - question weak directions internally
 - reduce user friction
-- avoid random creative drift
+- think in archetypes
+- protect theme integrity
 - preserve anaudr’s tone, pacing, and visual logic
+
+It should not:
+- ask everything externally
+- overcomplicate the workflow
+- obey weak ideas too literally
+- flatten the design into template behavior
