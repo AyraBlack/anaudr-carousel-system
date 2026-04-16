@@ -133,49 +133,196 @@ The anaudr voice should usually combine:
 ## Visual identity
 
 ### Brand vibe
-A satirical educational aesthetic that mixes playful high-energy content with strong visual authority.
+Playful, sarcastic, witty, meme-corporate with a twist.
 
-The brand should balance:
-- editorial and street
-- funny and informed
-- chaotic energy and structured information
-- soft pastel moments and bold dark-mode moments
-- internet-native style and expert-level detail
+The visual identity should feel like:
+- educational, but never boring
+- authoritative, but never stiff
+- editorial, but still internet-native
+- slightly chaotic in attitude, but structured in execution
+- high-energy social content with clean information design
 
-The overall feeling should be:
-sharp, funny, bold, slightly unhinged in attitude, but always clear and intentional in execution.
+The brand alternates between two official visual modes:
+- dark mode for legal, business, bold opinions, stronger satire, and high-contrast educational content
+- pastel mode for self-development, psychology, relationships, softer educational content, and lighter explanatory carousels
 
 ### Color palette
-To be defined.
+
+#### Dark mode base colors
+- Jet Black: `#0A0A0A`
+- Ink Navy: `#0F0F2E`
+- Charcoal: `#2E2E2E`
+
+#### Dark mode accents
+- Lemon Yellow: `#F5E642`
+- Warm Orange: `#F97316`
+- Pastel Coral: `#F47C7C`
+- Salmon: `#F28882`
+- Baby Blue / Cyan accents when needed
+- Red accents when stronger emphasis is needed
+
+#### Body neutral
+- Off White: `#F5F0E8`
+
+#### Pastel mode backgrounds
+- Butter Cream: `#F5F0E8`
+- Baby Blue: `#DCEEFF`
+- Lavender: `#E8D0FF`
+- Peach: `#FFE6D8`
+
+#### Pastel mode accents
+- Coral: `#F47C7C`
+- Salmon: `#F28882`
+- Yellow / mustard highlight family
+
+#### Pastel mode text
+- Deep Navy: `#1A1A2E`
+
+### Color behavior
+- each carousel should use one dominant visual mode
+- dark mode may use multiple accent colors if hierarchy stays clear
+- on pastel slides, text is usually Deep Navy
+- coral, salmon, yellow, and mustard can be used as text highlighters
+- orange is used for urgency, energy, or punch emphasis
+- baby blue / cyan can also be used as an accent in dark mode
+- off-white is the main body text color on dark backgrounds
+- color should create hierarchy, not noise
+
+### Background rotation rule
+For pastel carousels, the background can rotate:
+- Slide 1 = Butter Cream
+- Slide 2 = Baby Blue
+- Slide 3 = Lavender
+- Slide 4 = Peach
+- then repeat as needed
 
 ### Typography
-To be defined.
 
-### Font pairing
-To be defined.
+#### Main font pairings
+For legal, business, and bold opinion content:
+- Headline: Playfair Display
+- Body: DM Sans
+
+For self-development, psychology, and relationship content:
+- Headline: Cormorant Garamond
+- Body: Work Sans
+
+### Typography behavior
+- serif is used for authority, drama, hook power, elegance, and visual contrast
+- sans-serif is used for explanation, labels, numbers, lists, UI-like elements, and readability
+- serif and sans-serif can and should be mixed on the same slide when hierarchy benefits from it
+- hook slides should feel editorial and punchy
+- body slides should stay highly readable even when text-heavy
+- the same slide may contain display serif headline + sans labels + sans explanatory body + highlighted punch phrase
 
 ### Text hierarchy
-To be defined.
+- Hero hook: display font, 100-120px, 900 Black
+- Section headline: display font, 56-72px, 700 Bold
+- Subheading / label: body font, 34-38px, 600 Semibold
+- Body / explanation: body font, around 30px, 400 Regular
+- Handle / footer metadata: body font, 22-24px, light or regular
+- Slide number: always sans-serif
+
+### Text highlighting
+Highlighted text is a core brand device.
+
+Allowed highlight styles:
+- flat yellow highlight
+- mustard / warm yellow highlight
+- salmon highlight
+- coral highlight when needed
+
+Highlight usage:
+- key phrases
+- verbal punch points
+- important legal/business takeaways
+- ironic or sarcastic emphasis
+- CTA phrases
+- words that need to pop inside a longer sentence
 
 ### Spacing and layout feel
-To be defined.
+- canvas size: 1080x1080 or 1080x1350
+- outer margin: 60-80px from all edges
+- vertical gap between sections: 40-60px
+- between headline and body: 20-30px
+- text width should usually stay inside a 960px max width
+- layouts should feel clean, balanced, and intentional
+- nothing should bleed to the edge unless it is a deliberate cover visual
+- footer area should remain visually organized and not compete with the main content
 
 ### Use of bold, italics, caps, and punctuation
-To be defined.
+- bold is for emphasis, key phrases, and hard-hitting punch points
+- italics are for sarcasm, side-comments, disclaimers, or contrast
+- all caps are allowed for labels, warnings, UI-like elements, or short punch emphasis
+- underlines and highlight bars are encouraged when they clarify hierarchy
+- punctuation can be expressive, but should never feel childish or spammy
 
 ## Emoji system
 
 ### Emoji policy
-To be defined.
-
-### Approved emoji style
-To be defined.
+Emojis are part of the brand language.
+They can be used as:
+- inline accents
+- list markers
+- callout enhancers
+- slide mood-setters
+- oversized transparent background elements
 
 ### Emoji frequency
-To be defined.
+- there is no fixed maximum per slide
+- use as many as needed if they serve hierarchy, tone, humor, or scanning
+- avoid random decorative spam
 
 ### Emoji placement rules
-To be defined.
+- emojis can be used in body text, labels, callout boxes, lists, CTA zones, or section headers
+- emojis may appear large in the background with transparency if they help the concept
+- oversized background emojis should never damage readability
+- emoji use should feel intentional, not childish
+- emojis should support the slide logic, not replace it
+
+## Footer system
+
+### Handle rule
+`@anaudr` must appear on every single slide.
+
+### Handle placement
+- bottom left
+- always visible
+- never cropped
+
+### Handle styling
+- sans-serif only
+- 22-24px
+- light or regular weight
+- on dark slides: white or off-white with reduced opacity
+- on pastel slides: navy with reduced opacity
+
+### Slide number rule
+Slide numbers are mandatory from slide 2 until the final slide.
+
+### Slide number placement
+- bottom left or bottom right
+- always consistent within the carousel if possible
+- always visible
+- never cropped
+
+### Slide number styling
+- sans-serif only
+- clear and readable
+- should not compete with the main content
+- on dark slides: light text or light badge treatment
+- on pastel slides: dark text or soft badge treatment
+
+### Footer divider
+A footer separator is allowed and encouraged when it improves structure.
+
+Possible footer separators:
+- dashed line
+- fine solid line
+- subtle spacing break
+- low-contrast divider band
+
+The footer area should feel clearly separated from the main content without becoming visually heavy.
 
 ## Carousel styling rules
 
