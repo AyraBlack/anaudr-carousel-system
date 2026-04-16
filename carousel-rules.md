@@ -234,6 +234,10 @@ Use cards for:
 - grouped points
 - mini frameworks
 
+If a card contains more than one main idea, split it into smaller visual units.
+
+Prefer multiple smaller modules over one oversized paragraph-card unless the content is a true quote or editorial statement.
+
 ### Callout boxes
 Use for:
 - important takeaways
