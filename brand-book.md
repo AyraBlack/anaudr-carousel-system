@@ -133,7 +133,17 @@ The anaudr voice should usually combine:
 ## Visual identity
 
 ### Brand vibe
-To be defined.
+A satirical educational aesthetic that mixes playful high-energy content with strong visual authority.
+
+The brand should balance:
+- editorial and street
+- funny and informed
+- chaotic energy and structured information
+- soft pastel moments and bold dark-mode moments
+- internet-native style and expert-level detail
+
+The overall feeling should be:
+sharp, funny, bold, slightly unhinged in attitude, but always clear and intentional in execution.
 
 ### Color palette
 To be defined.
