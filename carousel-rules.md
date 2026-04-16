@@ -2,723 +2,733 @@
 
 ## Purpose
 
-This document defines how anaudr Instagram carousels should be structured, written, and visually organized.
+This document defines the visual design system for anaudr Instagram carousels.
 
-It exists so every carousel:
+It exists to make sure every carousel:
 - feels on-brand
-- is easy to follow
-- has strong pacing
-- looks intentional
-- balances sarcasm, authority, and clarity
+- has strong hierarchy
+- is easy to scan
+- looks designed, not randomly assembled
+- balances consistency with creative freedom
+
+This file is about **design behavior**, not user intake and not workflow.
+
+---
 
 ## Core principle
 
-Each carousel should feel like:
-- a strong opinion
-- a useful explanation
-- a branded visual system
-- a human talking, not a corporate PDF
+The AI must respect the brand system, but still create slides with taste, contrast, rhythm, and visual personality.
 
-The carousel should be:
-- easy to scan
-- easy to read
-- visually dynamic
-- information-dense without becoming exhausting
+Rules are **guardrails, not handcuffs**.
 
-## Standard carousel structure
+The goal is:
+- branded consistency
+- premium visual quality
+- creative range inside a clear system
 
-A standard anaudr carousel usually contains:
+The output should feel:
+- intentional
+- smart
+- visual
+- readable
+- expressive
+- platform-native
 
-1. Cover slide
-2. Context or hook expansion slide
-3. Explanation or breakdown slide(s)
-4. Example, framework, comparison, or proof slide(s)
-5. Takeaway, CTA, or conclusion slide
+Not like:
+- a corporate deck
+- a template slideshow
+- a Canva homework assignment
+- a rigid system exercise
 
-Not every carousel must follow this mechanically, but the logic should be clear.
+---
 
-## Cover slide rules
+## Theme modes
 
-The cover slide must:
-- stop the scroll
-- contain a strong hook
-- immediately communicate topic and tone
-- feel visually bold and high-contrast
-- look like anaudr at first glance
+anaudr carousels use only **2 visual modes**:
 
-The cover slide can include:
-- one major headline
-- one supporting line or sub-hook
-- one image or visual anchor
-- highlighted words
-- mixed serif and sans-serif typography
-- strong emotional or ironic contrast
+1. `DARK_THEME`
+2. `COLOR_THEME`
 
-The cover slide should not:
-- be overcrowded
-- include too much body copy
-- feel generic
-- sound like a lecture title
+Do not invent extra modes unless explicitly instructed.
 
-## Slide progression rules
+---
 
-From slide 2 onward, the carousel should create movement.
+# DARK_THEME
 
-Each next slide should do one of these:
-- clarify
-- deepen
-- prove
-- contrast
-- exemplify
-- reframe
-- conclude
-
-Each slide must earn its place.
-No filler slides.
-
-## Writing rules
-
-### Tone
-The writing must feel:
-- sarcastic
-- funny when useful
-- authoritative
-- sharp
-- highly readable
-- detailed when needed
-- grounded in real life
-
-### Writing rhythm
-- hook first
-- explanation second
-- nuance when useful
-- punchline or takeaway where possible
-
-### Sentence behavior
-- short and medium sentences preferred
-- long sentences are allowed only when they still read cleanly
-- text should feel spoken, not bureaucratic
-- avoid academic heaviness unless it is intentionally contrasted
-
-## Hook rules
-
-Hooks should usually be:
-- blunt
-- surprising
-- relatable
-- emotionally loaded
-- socially recognizable
-- a little provocative
-- useful, not empty
-
-Good hook types:
-- brutal truth
-- sarcastic observation
-- “you think X, but actually Y”
-- cultural or internet reference
-- strong claim
-- odd comparison
-- emotionally familiar scenario
-
-## Content density rules
-
-anaudr carousels can be text-heavy, but text must still breathe.
-
-Rules:
-- one clear point per slide
-- avoid giant unbroken paragraphs
-- break content into sections, labels, boxes, or stacked logic
-- if a slide is dense, the hierarchy must be extra clear
-- visual structure must do part of the communication
-
-## Layout logic
-
-A slide may use:
-- headline + body
-- headline + highlight bar + body
-- headline + card(s)
-- headline + boxed example
-- headline + list
-- headline + arrow flow
-- headline + diagram-style content
-- headline + quote / punchline + support text
-
-The layout should match the kind of information being communicated.
-
-## Visual mode rules
-
-### Dark mode
-Use dark mode for:
-- legal content
+## Use dark theme for
+- legal explainers
 - business content
-- bold opinion
-- stronger satire
-- high-contrast educational content
-- serious topics with punch
+- policy / regulation
+- urgent news
+- strong opinion
+- bold commentary
+- authority-heavy educational content
 
-Dark mode allows:
-- stronger contrast
-- louder accents
-- more card-based structure
-- more “UI-like” layouts
+## Visual mood
 
-### Pastel mode
-Use pastel mode for:
-- self-development
-- psychology
-- relationship content
-- softer educational content
-- reflective or emotionally nuanced topics
+Dark theme must feel:
+- premium
+- editorial
+- cinematic
+- high-contrast
+- sharp, not sterile
+- playful with control
+- expressive, not emotionally flat
+- slightly provocative
+- visually rich
 
-Pastel mode allows:
-- more breathing room
-- softer pacing
-- more open layouts
-- more emotional readability
+It should feel closer to:
+- a luxury campaign
+- an expensive newsroom graphic
+- a polished social editorial
+- a high-end explainer with attitude
 
-## Typography rules
+Dark theme is **not** flat black minimalism.
 
-Typography can mix on the same slide.
+## Background behavior
 
-Typical combinations:
-- serif headline + sans body
-- serif punch phrase + sans explanation
-- sans label + serif statement
-- serif hook + sans footer / metadata / examples
+Dark backgrounds should not be plain black by default.
 
-Use serif for:
-- drama
-- authority
-- elegant punch
-- contrast
-- emotional or editorial weight
+Prefer:
+- deep navy-black base
+- subtle atmospheric gradients
+- soft color bloom in corners or behind modules
+- low-opacity glow or haze
+- layered dark depth
 
-Use sans for:
-- body copy
-- labels
-- numbers
-- slide numbers
-- handle
-- explanatory structure
-- lists and informational content
+Allowed:
+- red/orange bloom
+- blue/cyan bloom
+- muted indigo tint
+- soft spotlight effect
+- grain or texture if subtle
 
-## Highlighting rules
+Avoid:
+- dead flat black
+- random loud neon
+- chaotic gradients
+- decorative effects with no hierarchy
 
-Text highlighting is part of the anaudr visual language.
+## Typography behavior
 
-Allowed highlight uses:
-- single words
-- short phrases
-- legal keywords
+Use:
+- oversized serif headline as the hero
+- sans-serif for support text, labels, cards, footer, metadata
+- occasional italic serif for emphasis
+- mixed headline treatment when useful
+
+Allowed headline behavior:
+- one word or phrase in accent color
+- one underlined phrase
+- one highlighted keyword block
+- one italic or slanted serif phrase
+- one gradient/accent phrase if elegant
+
+The title should feel bold, anchored, and dramatic.
+
+## Playfulness and emoji behavior
+
+Dark theme is allowed to play.
+
+Use:
+- emojis as visual anchors
+- emojis as section cues
+- emojis inside cards, chips, labels, or process blocks
+- occasional oversized transparent emoji/object in the background
+- small visual jokes if they support the point
+
+Good:
+- one emoji near the hero
+- one emoji inside a chip or stat
+- one oversized faded icon/object in the corner
+- one clever visual accent
+
+Avoid:
+- emoji spam
+- childish clutter
+- emoji replacing hierarchy
+- random decorative confetti
+
+Dark theme should feel:
+**serious enough to be respected, playful enough to be remembered.**
+
+## Composition behavior
+
+Every slide must have **one dominant visual move**.
+
+Allowed dominant moves:
+- giant editorial headline
+- hero stat
+- 2x2 premium grid
+- stacked panels
+- split comparison
+- process / flow strip
+- quote + proof block
+- consequence grid
+- summary checklist
+- CTA end screen
+
+Do not default to:
+- headline
+- small text
+- 3 boxes
+- highlight strip
+- footer
+
+for every slide.
+
+Vary the composition.
+
+## Card and module behavior
+
+Cards must feel:
+- tinted, not flat
+- premium, not default
+- shadowed or atmospherically embedded
+- separated from the background
+- visually intentional
+
+Preferred card traits:
+- dark navy fill
+- slight tonal variation
+- soft outer shadow
+- subtle inner glow or tint
+- colored side stroke, bottom glow, or accent line when useful
+- rounded corners with confidence
+- enough padding to breathe
+
+Allowed card types:
+- stat card
+- proof card
+- explainer card
+- cause/effect card
+- comparison card
+- quote card
+- process card
+- warning card
+- takeaway card
+
+Avoid:
+- dead generic rectangles
+- flat gray boxes
+- repeating the same card style forever
+- tiny cramped cards
+
+## Accent color behavior
+
+Accent colors are hierarchy tools, not decoration.
+
+Preferred accent behavior:
+- yellow for hero emphasis, major numbers, key phrase dominance
+- orange/coral for punch phrases, warnings, important contrast
+- blue/cyan for selected data or secondary contrast
+- red for urgency, conflict, enforcement, danger
+
+Usually use:
+- one primary accent color
+- one optional secondary accent
+
+Do not let all accent colors fight on the same slide.
+
+## Highlight behavior
+
+Highlights in dark theme may be:
+- chunky keyword block
+- underline
+- glow underline
+- stat badge
+- colored headline phrase
+- phrase highlight inside a sentence
+- highlighted bottom takeaway
+
+Use highlights for:
+- key words
+- key numbers
+- consequences
 - contrast points
-- key takeaways
-- sarcastic punchlines
-- CTA prompts
+- punch phrases
+- final takeaway
 
-Allowed highlight colors:
-- yellow
-- mustard yellow
-- salmon
-- coral
+Avoid:
+- same highlight strip on every slide
+- low-contrast highlight blocks
+- highlighting too much text
+- marker-style bars pasted with no integration
 
-Do not highlight everything.
-If everything screams, nothing lands.
+## Chips, pills, and labels
 
-## Component rules
+Dark-theme chips should feel like premium interface objects.
 
-### Cards
-Use cards for:
-- explanations
-- examples
-- comparisons
-- grouped points
-- mini frameworks
-
-### Callout boxes
 Use for:
-- important takeaways
-- sarcastic side comments
-- legal nuance
-- warnings
-- CTA moments
-
-### Dashed borders
-Use when:
-- you want separation without heaviness
-- you want a more playful, editorial feel
-- you want a footer divider or a soft UI structure
-
-### Arrows
-Use arrows for:
-- flow
-- comparison
-- progression
-- cause and effect
-- steps
-- sarcastic directional commentary when appropriate
-
-### Labels / chips / pills
-Use for:
-- section names
-- “problem”
-- “solution”
-- “takeaway”
-- “pro tip”
-- “real talk”
-- “pe scurt”
-- numbered ideas
+- section labels
+- problem / solution / takeaway
+- numbered items
+- top pills
+- CTA actions
 - mini headers
+- status labels
 
-Navigation cues such as “swipe” or “vezi mai departe” should be designed as small chips, pills, or branded UI cues, not plain loose text.
+They should feel:
+- polished
+- readable
+- rounded with confidence
+- softly tinted or lightly glowy
+- integrated into the slide
 
-## Emoji rules
+Avoid:
+- tiny metadata crumbs
+- weak pills with no visual presence
+- random chip spam
 
-Emojis are allowed as:
-- inline accents
-- list markers
-- background graphic elements
-- mood amplifiers
-- concept cues
+## Process and flow behavior
 
-Emojis may be:
-- small and inline
-- medium inside callouts
-- oversized and transparent in the background
+Dark theme can use:
+- arrow flows
+- system diagrams
+- ladders
+- connected cards
+- verification flows
+- cause/effect chains
+- step strips
+
+These should feel:
+- UI-like
+- polished
+- readable
+- compact but not tiny
+
+## Allowed dark archetypes
+
+- editorial cover
+- hero stat + proof card
+- 2x2 premium info grid
+- split comparison
+- stacked consequence panels
+- process / flow explainer
+- quote + evidence card
+- numbered consequence grid
+- summary checklist
+- CTA with branded chips
+
+---
+
+# COLOR_THEME
+
+## Use color theme for
+- psychology
+- self-development
+- relationships
+- social commentary
+- softer educational content
+- lifestyle-business crossover
+- emotionally nuanced topics
+- playful/satirical explainers
+
+## Visual mood
+
+Color theme must feel:
+- editorial
+- playful but expensive
+- soft but not weak
+- structured
+- visually alive
+- premium, not cute
+- feminine-smart when appropriate
+- expressive, not childish
+
+Think:
+- magazine-meets-infographic
+- soft color with strong design intelligence
+
+Color theme is **not** generic light mode.
+
+## Background behavior
+
+Use soft-color backgrounds such as:
+- butter cream
+- blush
+- peach
+- powder blue
+- lavender
+- muted warm yellow
+- pale cool blue
+- soft tinted neutrals
+
+Text should usually be:
+- deep navy
+- charcoal
+- black only when contrast clearly works
+
+Allowed background play:
+- gradient wash
+- soft texture
+- dots
+- subtle checkers
+- grain
+- light pattern
+- faint decorative shapes
+
+Avoid:
+- flat sugary backgrounds
+- washed-out contrast
+- plain white with no atmosphere
+- “cute Canva” energy
+
+## Typography behavior
+
+Use:
+- bold editorial serif headlines
+- sans-serif for body, labels, cards, footer, metadata
+- mixed hierarchy on the same slide
+
+Allowed:
+- serif headline + sans subhead
+- serif statement + sans explanation
+- small label + giant phrase
+- gradient title word
+- underlined keyword
+- colored phrase in hero
+- serif + bold sans contrast
+
+Color theme should still have **strong hierarchy**.
+
+Do not make it timid just because the background is light.
+
+## Playfulness and emoji behavior
+
+Color theme is allowed to play more visibly than dark theme.
+
+Use:
+- emojis as accents
+- emoji-led cards
+- numbered bubbles
+- sticker-like chips
+- background emojis at low opacity
+- fun visual anchors
+- small ironic graphic cues
+
+But:
+- the slide must still feel premium
+- emojis should support the message
+- never let the slide become childish clutter
+
+## Composition behavior
+
+Color theme should feel softer than dark theme, but still designed.
+
+Allowed:
+- numbered module stack
+- connector/path layout
+- split comparison
+- chunky checklist
+- speech bubble / quote bubble
+- stat + takeaway card
+- 2x2 soft grid
+- editorial card stack
+- punch cover with visual anchor
+- CTA with soft pills
+
+Use fewer, larger modules rather than many tiny boxes.
+
+Color theme must not look like:
+- centered text on a pale background
+- stacked white rectangles
+- a workshop handout
+
+## Card and module behavior
+
+Cards in color theme should be:
+- softly tinted
+- slightly shadowed
+- roomy
+- varied in weight and shape
+- graphic, not generic
+
+Allowed module treatments:
+- colored left edge
+- number dot
+- speech bubble
+- outlined pill
+- colored takeaway card
+- side note box
+- comparison module
+- chunky checklist pill
+- stack of mini cards if clear
+
+Avoid:
+- dead white boxes as the default system
+- tiny cramped modules
+- every card looking identical
+- tiny pills pretending to carry major content
+
+## Accent color behavior
+
+Allowed accent colors:
+- coral
+- salmon
+- lemon
+- orange
+- mustard
+- warm red
+- muted green when useful
+- blue when intentionally used
+
+Use accent colors for:
+- hierarchy
+- numbering
+- key words
+- punch lines
+- labels
+- CTA pills
+- contrast logic
+
+Do not turn every sentence into a circus.
+
+## Highlight behavior
+
+Color theme allows more visible highlight play than dark theme.
+
+Allowed:
+- chunky highlight blocks
+- underlined phrase
+- colored key word in title
+- marker-like phrase block
+- speech-bubble emphasis
+- gradient title phrase
+- integrated takeaway box
+
+Use selectively.
+
+Avoid:
+- highlighting everything
+- disconnected strips pasted on every slide
+- random color noise
+
+## Chips, pills, and labels
+
+Color-theme chips may be more playful than dark-theme chips, but must still feel premium.
+
+Use for:
+- labels
+- numbered ideas
+- checklist items
+- CTA actions
+- mini headings
+- status tags
+- highlighted phrases
+
+They can be:
+- outlined
+- softly filled
+- sticker-like
+- rounded
+- chunky
+- badge-like
+
+Avoid:
+- tiny weak chips
+- random loose text pretending to be navigation
+- labels with no visual authority
+
+## Allowed color archetypes
+
+- editorial color cover
+- numbered module stack
+- path / connector explainer
+- chunky checklist
+- stat + takeaway card
+- 2x2 soft grid
+- split comparison
+- speech bubble / quote bubble
+- CTA with soft branded pills
+
+---
+
+# Non-negotiables
+
+These apply to both themes.
+
+1. Every slide must have **one dominant visual move**.
+2. Text must be confidently readable.
+3. No tiny text.
+4. Cards and modules must feel designed.
+5. Footer system must stay consistent.
+6. One slide = one main point.
+7. The output must feel like editorial social design, not a presentation deck.
+8. Creativity is allowed inside the system.
+9. The slide must look intentional at first glance.
+
+## Top safety space rule
+
+Headlines in all themes must respect a **mandatory top safety space**.
 
 Rules:
-- use emojis intentionally
-- do not let emojis kill readability
-- emojis should support the point, not become the point
-- oversized emojis should be low-opacity if used as background elements
+- never place the main headline too close to the top edge
+- always preserve generous top padding
+- labels, badges, icons, and supporting intro elements must also respect this upper margin
+- the composition should begin below a protected top zone, not in the ceiling
 
-## Image rules
+This is an Instagram carousel, not a poster glued to the frame edge.
 
-Images can be:
-- portraits
-- cutouts
-- screenshots
-- diagrams
-- visual metaphors
-- book covers
-- meme-adjacent references
-- objects that support the argument
+The headline can still feel bold, anchored, and visually dominant, but it must sit inside a safe layout structure with clear breathing room from above.
 
-Images should not:
-- feel stock and dead
-- overpower the text unless that is the purpose of the slide
-- confuse hierarchy
+---
 
-## Footer rules
+# Anti-patterns
 
-Most slides should follow one consistent footer system.
+Never do this:
+- headline too high + empty wasteland below
+- flat generic rectangles
+- tiny chips that read like metadata crumbs
+- same structure repeated for the whole deck
+- article paragraphs dumped into cards
+- dead white boxes as the main system
+- muddy contrast
+- pasted highlight strip on every slide
+- CTA as raw stacked text
+- layout that feels safe but boring
+- decks that feel more compliant than designed
 
-### Standard footer behavior
-For all standard content slides:
-- `@anaudr` must appear in the bottom-left
-- slide numbers must appear from slide 2 to the final slide
+---
+
+# Footer rules
+
+## Standard footer behavior
+
+For most standard slides:
+- `@anaudr` must appear bottom-left
+- slide number must appear from slide 2 onward
 - footer text must always be sans-serif
-- footer placement should stay geometrically consistent across the carousel
+- placement must stay geometrically consistent
 
-### Consistency rule
-If the footer is placed at a specific distance from the bottom and side margins on slide 2, that same positioning system should be kept on the following standard slides.
+## Consistency rule
 
-This includes:
+If footer placement is fixed on one standard slide, keep the same:
 - bottom offset
-- left/right offset
+- side offset
 - divider placement
-- visual alignment
+- alignment logic
 
-The footer should not visibly jump around from slide to slide unless there is a deliberate reason.
+The footer must not visibly jump around.
 
-### Exceptions
-The hook slide and the final CTA slide are allowed to break the standard footer layout if the composition needs it.
+## Divider rule
 
-### Footer contents
-The footer may include:
-- `@anaudr`
-- slide number
-- divider line
-- dashed line
-- subtle visual separation from the main content
-
-The footer should feel structured, quiet, and consistent.
-
-### Footer divider consistency rule
-
-If a carousel uses a footer divider, it must be consistent across all standard slides.
-
-This includes:
-- same horizontal position
+If a footer divider is used, it must remain consistent across standard slides:
 - same width
 - same opacity
-- same stroke or border style
-- same spacing from bottom content and footer text
+- same stroke style
+- same spacing from content and footer text
 
-Do not let the divider appear on some standard slides and disappear on others unless there is a deliberate exception for the cover or final CTA slide.
+## Exceptions
 
-## Slide number rules
+The cover slide and final CTA slide may break the standard footer system only if composition clearly requires it.
 
-Slide numbers are mandatory from slide 2 to the final slide.
+---
+
+# Slide number rules
+
+Slide numbers are mandatory from slide 2 to the final slide unless explicitly waived.
 
 Rules:
-- bottom left or bottom right
-- always visible
 - always sans-serif
-- do not compete with the main content
-- keep placement consistent across all standard slides when possible
+- always visible
+- should not compete with main content
+- placement should remain stable
 
-## CTA slide rules
+---
 
-The final slide should usually contain two layers:
+# CTA rules
 
-### Layer 1: the actual ending
-This is the main CTA message or closing message.
+The final slide usually contains 2 layers:
 
-It may do one or more of these:
+## Layer 1: main ending
+This can:
 - ask a direct question
-- invite a comment
 - restate the core point
 - deliver a mic-drop line
-- create curiosity for the next post
-- give a final takeaway
-- push a save/share/comment reaction in words
+- invite a comment
+- create curiosity
+- conclude the argument
 
-This is the main ending content of the slide.
-
-### Layer 2: the branded CTA add-on
-Below or after the main ending, the slide can include the branded action strip:
-
+## Layer 2: branded action add-on
+This can include:
 - `Nu uita să:`
 - ❤️ love
 - 📤 distribuie
 - 🔁 reshare
 
-This is not the main CTA by itself.
-It is a recurring branded add-on that reinforces engagement actions.
+The branded CTA add-on is not the whole CTA by itself.
+It is a branded engagement strip.
 
-### CTA add-on display options
-The branded action strip can be displayed:
-- inline
+## CTA display options
+It may appear:
 - in a row
 - as icon + micro-label pairs
-- in a visually separated CTA zone
-- as part of the footer area if the layout supports it
+- in a CTA zone
+- in a footer-adjacent strip
+- as modular pills
 
-### CTA behavior
-The final slide should:
-- feel branded and recognizable
-- be easy to scan
-- encourage action without sounding corporate
-- visually fit the carousel mode
-- clearly separate the main ending message from the engagement add-on
+CTA should feel:
+- branded
+- easy to scan
+- integrated
+- visually clean
+- non-corporate
 
-The final slide can break the standard footer layout if composition needs it.
+---
 
-## What anaudr carousels always do
+# Creative freedom clause
 
-- start strong
-- have visual hierarchy
-- mix authority with personality
-- explain real things clearly
-- use contrast well
-- feel smart but readable
-- include sarcasm or wit where useful
-- keep the brand visible
-- feel designed, not random
+The AI must respect:
+- the active theme
+- non-negotiables
+- anti-patterns
+- hierarchy
+- footer consistency
 
-## What anaudr carousels never do
+Within those boundaries, it is encouraged to explore visually.
 
-- sound generic
-- sound like LinkedIn sludge
-- look like a Canva template with a degree
-- over-explain simple points in a boring way
-- bury the main idea
-- use random accent colors with no hierarchy
-- forget the footer rules
-- become visually chaotic without structure
-- become so funny that they stop being useful
+Allowed creative moves include:
+- gradient headline treatment
+- mixed serif + sans hierarchy
+- underlines and highlighted phrases
+- patterns, dots, checkers, grain, texture
+- soft glow and atmospheric depth
+- playful emoji accents
+- graphic anchors
+- connector lines and process flows
+- alternate module shapes
+- more expressive composition when it improves the slide
 
-## Decision rule
+The goal is not rigid compliance.
+The goal is **branded creative range**.
 
-If a choice must be made, choose:
+The output should feel designed, not mechanically assembled.
+
+---
+
+# Preview format rule
+
+Before full generation, the AI must preview the carousel using this structure:
+
+**Slide X**  
+**Slide archetype:**  
+**Layout concept:**  
+**Hero element:**  
+**Supporting components:**  
+**Sample wording:**
+
+This preview format is mandatory unless the user explicitly asks to skip it.
+
+---
+
+# Decision rule
+
+If a choice must be made, prefer:
 - clarity over decoration
 - hierarchy over noise
-- brand consistency over novelty
-- punch over padding
+- stronger type over timid type
+- premium structure over generic layout
+- one strong move over five average ones
 - useful detail over empty cleverness
-
-## Anti-dry layout rules
-
-The AI must not default to plain slide-deck composition.
-
-For anaudr, both dark mode and pastel mode must feel designed, playful, and structured.
-
-If a card contains more than one main idea, split it into smaller visual units.
-
-Prefer multiple smaller modules over one oversized paragraph-card unless the content is a true quote or editorial statement.
-
-When previewing, the AI must identify the slide archetype explicitly.
-
-Examples of archetypes:
-- editorial cover
-- 2x2 card grid
-- hero stat + stacked rows
-- comparison grid
-- quote card + data box
-- summary checklist
-- CTA strip + footer action row
-
-### Core rule
-Never build a slide as:
-- headline
-- tiny bullet list
-- random highlight
-- empty space
-- footer
-
-unless it is a deliberate minimalist mic-drop slide.
-
-### Layout-first rule
-Before designing each slide, the AI must decide:
-- what is the visual concept of this slide
-- what component carries the message
-- what deserves emphasis
-- what should be large
-- what should be grouped
-- what should be separated
-
-### Body size rule
-Body text must be large enough to read instantly on mobile.
-
-Avoid tiny body text.
-Avoid presentation-style bullet sizing.
-If a user has to zoom to read the list, the slide has failed.
-
-### Bullet list rule
-Do not default to plain bullet points.
-
-If a slide contains multiple points, prefer one of these:
-- emoji-led rows
-- icon-led rows
-- cards
-- stacked callouts
-- numbered chips
-- comparison rows
-- grouped blocks with dividers
-
-Use plain bullets only when they are clearly the best option.
-
-### Emoji structure rule
-Emojis are allowed as structural elements, not just decoration.
-
-They may replace bullets or markers, such as:
-- 👉
-- 📍
-- ✅
-- 🚨
-- 📌
-- 🔍
-- ⚠️
-
-They may also appear:
-- inside cards
-- in section chips
-- in summary rows
-- as faded background graphics
-- next to headings
-- next to country names, categories, or examples
-
-Do not mix bullets and emojis randomly in the same list unless there is a clear reason.
-
-### Highlight logic rule
-Highlights must support hierarchy, not break it.
-
-Use highlights for:
-- key words
-- contrast points
-- hard takeaways
-- numbers
-- consequences
-- punch phrases
-
-Do not place highlights in ways that damage readability or collide with the text above them.
-
-### Card logic rule
-If a message is important, grouped, comparative, or explanatory, consider putting it in a card.
-
-Use cards especially for:
-- key takeaways
-- examples
-- comparisons
-- country differences
-- quote-style insights
-- mini frameworks
-- important data points
-
-If a line feels too important to be plain body text, it probably deserves a card or callout.
-
-When a slide uses multiple cards, prefer card modules with:
-- a clear visual anchor such as centered icon or emoji
-- larger readable text
-- text placed below the icon when that improves hierarchy
-- enough spacing to feel premium, not cramped
-
-Cards should feel like designed modules, not text boxes.
-
-### Takeaway placement rule
-Strong concluding phrases should not be thrown in as plain quotes by default.
-
-Phrases like:
-- "Piața cere. Statul pedepsește."
-- "Statul vrea registru, nu forță de muncă."
-- "România pierde oameni, bani și timp."
-
-should be treated as visual conclusion elements.
-
-Possible treatments:
-- highlight bar
-- takeaway card
-- callout box
-- conclusion strip
-- isolated large line
-- strong bottom statement outside the main card
-
-### Comparison rule
-Comparison slides must be immediately understandable.
-
-If comparing countries, systems, or options:
-- clearly label both sides
-- use headers or flags when useful
-- use cards, tables, or comparison rows
-- never leave the viewer guessing which side is which
-
-### Quote vs card rule
-Do not turn a user insight into a quote block by default.
-
-Before using a quote treatment, ask:
-- is this really a quote?
-- or is it better as a card, takeaway, comparison block, or visual callout?
-
-Many anaudr lines work better as designed cards than as editorial quotes.
-
-### Dryness rule
-If a slide feels informative but visually dry, the AI should redesign it before finalizing.
-
-Dryness signals include:
-- too much plain black or pastel empty space
-- tiny body text
-- weak bullets
-- only one design move on the slide
-- no playful hierarchy
-- no component structure
-- no visual anchor
-
-### CTA placement rule
-The branded CTA add-on should usually sit near the footer zone, not floating in the middle of the slide.
-
-It should feel:
-- integrated
-- small but clear
-- structured
-- visually separate from the main ending message
-
-Preferred CTA placement:
-- above the footer
-- in a small CTA strip
-- in a footer-adjacent action row
-- inside a structured lower section
-
-### Reference rule
-When in doubt, the AI should choose:
-- stronger body size
-- clearer grouping
-- more component structure
-- better hierarchy
-- more playful organization
-- less deck-like minimalism
-
-## Premium dark-mode color treatment
-
-Dark mode should not use flat black by default.
-
-Prefer:
-- deep navy-black backgrounds
-- subtle radial or blurred glows
-- soft tinted card backgrounds
-- warm off-white instead of pure white
-- restrained accent hierarchy
-
-### Premium depth rule
-
-Cards, quote blocks, panels, and modules should not feel flat by default.
-
-Prefer:
-- soft outer shadows
-- subtle inner glow or tinted depth
-- dark backgrounds with slight tonal variation
-- elegant separation from the background
-- restrained glow or edge lighting where useful
-
-The goal is atmospheric premium depth, not flat boxes and not cheesy neon.
-
-### Background behavior
-Use layered dark backgrounds such as:
-- navy-black base
-- muted indigo tint
-- soft red/orange glow in one area
-- soft blue glow in another area when useful
-
-Avoid flat empty black backgrounds unless intentionally minimal.
-
-### Card behavior
-Cards should not all use the exact same dead-dark fill.
-
-Allow:
-- dark navy cards
-- softly tinted dark cards
-- slight glow or gradient tint
-- thin low-contrast borders
-
-Cards should feel integrated into the atmosphere, not dropped on top of it.
-
-### Accent hierarchy
-Use accent colors with restraint:
-- one primary accent color per slide
-- one optional secondary accent only if needed
-- highlight only what truly deserves visual dominance
-
-### Text behavior
-Prefer:
-- warm off-white for main text
-- softer muted text for secondary lines
-- stronger accent only for key contrast words, big numbers, or punch phrases
-
-Do not make the whole slide fight for attention.
-
-## Premium card hierarchy rule
-
-When a slide uses cards, prefer a 3-layer card hierarchy when appropriate:
-
-1. icon or emoji
-2. subtitle / label / lead phrase in accent color
-3. main explanatory text
-
-This structure is preferred over flat cards with only text.
-
-### Card behavior
-Cards should often include:
-- one visual anchor at the top or left
-- one short colored subtitle or lead phrase
-- one main text block underneath
-
-### Color behavior inside cards
-The subtitle or lead phrase may use:
-- orange
-- coral
-- yellow
-- blue/cyan when appropriate in dark mode
-
-The colored subtitle should create hierarchy, not decoration.
-
-### Goal
-Cards should feel like premium information modules, not simple dark text boxes.
+- branded creativity over sterile obedience
