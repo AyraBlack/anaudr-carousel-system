@@ -623,3 +623,48 @@ When in doubt, the AI should choose:
 - better hierarchy
 - more playful organization
 - less deck-like minimalism
+
+## Premium dark-mode color treatment
+
+Dark mode should not use flat black by default.
+
+Prefer:
+- deep navy-black backgrounds
+- subtle radial or blurred glows
+- soft tinted card backgrounds
+- warm off-white instead of pure white
+- restrained accent hierarchy
+
+### Background behavior
+Use layered dark backgrounds such as:
+- navy-black base
+- muted indigo tint
+- soft red/orange glow in one area
+- soft blue glow in another area when useful
+
+Avoid flat empty black backgrounds unless intentionally minimal.
+
+### Card behavior
+Cards should not all use the exact same dead-dark fill.
+
+Allow:
+- dark navy cards
+- softly tinted dark cards
+- slight glow or gradient tint
+- thin low-contrast borders
+
+Cards should feel integrated into the atmosphere, not dropped on top of it.
+
+### Accent hierarchy
+Use accent colors with restraint:
+- one primary accent color per slide
+- one optional secondary accent only if needed
+- highlight only what truly deserves visual dominance
+
+### Text behavior
+Prefer:
+- warm off-white for main text
+- softer muted text for secondary lines
+- stronger accent only for key contrast words, big numbers, or punch phrases
+
+Do not make the whole slide fight for attention.
