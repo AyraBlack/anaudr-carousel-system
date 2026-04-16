@@ -431,3 +431,170 @@ If a choice must be made, choose:
 - brand consistency over novelty
 - punch over padding
 - useful detail over empty cleverness
+
+## Anti-dry layout rules
+
+The AI must not default to plain slide-deck composition.
+
+For anaudr, both dark mode and pastel mode must feel designed, playful, and structured.
+
+### Core rule
+Never build a slide as:
+- headline
+- tiny bullet list
+- random highlight
+- empty space
+- footer
+
+unless it is a deliberate minimalist mic-drop slide.
+
+### Layout-first rule
+Before designing each slide, the AI must decide:
+- what is the visual concept of this slide
+- what component carries the message
+- what deserves emphasis
+- what should be large
+- what should be grouped
+- what should be separated
+
+### Body size rule
+Body text must be large enough to read instantly on mobile.
+
+Avoid tiny body text.
+Avoid presentation-style bullet sizing.
+If a user has to zoom to read the list, the slide has failed.
+
+### Bullet list rule
+Do not default to plain bullet points.
+
+If a slide contains multiple points, prefer one of these:
+- emoji-led rows
+- icon-led rows
+- cards
+- stacked callouts
+- numbered chips
+- comparison rows
+- grouped blocks with dividers
+
+Use plain bullets only when they are clearly the best option.
+
+### Emoji structure rule
+Emojis are allowed as structural elements, not just decoration.
+
+They may replace bullets or markers, such as:
+- 👉
+- 📍
+- ✅
+- 🚨
+- 📌
+- 🔍
+- ⚠️
+
+They may also appear:
+- inside cards
+- in section chips
+- in summary rows
+- as faded background graphics
+- next to headings
+- next to country names, categories, or examples
+
+Do not mix bullets and emojis randomly in the same list unless there is a clear reason.
+
+### Highlight logic rule
+Highlights must support hierarchy, not break it.
+
+Use highlights for:
+- key words
+- contrast points
+- hard takeaways
+- numbers
+- consequences
+- punch phrases
+
+Do not place highlights in ways that damage readability or collide with the text above them.
+
+### Card logic rule
+If a message is important, grouped, comparative, or explanatory, consider putting it in a card.
+
+Use cards especially for:
+- key takeaways
+- examples
+- comparisons
+- country differences
+- quote-style insights
+- mini frameworks
+- important data points
+
+If a line feels too important to be plain body text, it probably deserves a card or callout.
+
+### Takeaway placement rule
+Strong concluding phrases should not be thrown in as plain quotes by default.
+
+Phrases like:
+- "Piața cere. Statul pedepsește."
+- "Statul vrea registru, nu forță de muncă."
+- "România pierde oameni, bani și timp."
+
+should be treated as visual conclusion elements.
+
+Possible treatments:
+- highlight bar
+- takeaway card
+- callout box
+- conclusion strip
+- isolated large line
+- strong bottom statement outside the main card
+
+### Comparison rule
+Comparison slides must be immediately understandable.
+
+If comparing countries, systems, or options:
+- clearly label both sides
+- use headers or flags when useful
+- use cards, tables, or comparison rows
+- never leave the viewer guessing which side is which
+
+### Quote vs card rule
+Do not turn a user insight into a quote block by default.
+
+Before using a quote treatment, ask:
+- is this really a quote?
+- or is it better as a card, takeaway, comparison block, or visual callout?
+
+Many anaudr lines work better as designed cards than as editorial quotes.
+
+### Dryness rule
+If a slide feels informative but visually dry, the AI should redesign it before finalizing.
+
+Dryness signals include:
+- too much plain black or pastel empty space
+- tiny body text
+- weak bullets
+- only one design move on the slide
+- no playful hierarchy
+- no component structure
+- no visual anchor
+
+### CTA placement rule
+The branded CTA add-on should usually sit near the footer zone, not floating in the middle of the slide.
+
+It should feel:
+- integrated
+- small but clear
+- structured
+- visually separate from the main ending message
+
+Preferred CTA placement:
+- above the footer
+- in a small CTA strip
+- in a footer-adjacent action row
+- inside a structured lower section
+
+### Reference rule
+When in doubt, the AI should choose:
+- stronger body size
+- clearer grouping
+- more component structure
+- better hierarchy
+- more playful organization
+- less deck-like minimalism
