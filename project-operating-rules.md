@@ -143,3 +143,19 @@ Optimize for:
 - consistent tone
 - visual clarity
 - fewer bad regenerations
+
+## Slide design behavior rule
+
+For each slide, do not start from text placement.
+Start from layout concept.
+
+A slide should feel like a designed social infographic, not a presentation slide.
+
+Ask internally:
+- Is this slide a card slide, comparison slide, stat slide, chip slide, summary slide, quote slide, or takeaway slide?
+- What is the main visual anchor?
+- What deserves the most size?
+- What should become a card instead of body text?
+- Should bullets become emoji rows, chips, or grouped items?
+
+Avoid dry slide-deck composition in both dark and pastel mode.
