@@ -234,10 +234,6 @@ Use cards for:
 - grouped points
 - mini frameworks
 
-If a card contains more than one main idea, split it into smaller visual units.
-
-Prefer multiple smaller modules over one oversized paragraph-card unless the content is a true quote or editorial statement.
-
 ### Callout boxes
 Use for:
 - important takeaways
@@ -441,6 +437,21 @@ If a choice must be made, choose:
 The AI must not default to plain slide-deck composition.
 
 For anaudr, both dark mode and pastel mode must feel designed, playful, and structured.
+
+If a card contains more than one main idea, split it into smaller visual units.
+
+Prefer multiple smaller modules over one oversized paragraph-card unless the content is a true quote or editorial statement.
+
+When previewing, the AI must identify the slide archetype explicitly.
+
+Examples of archetypes:
+- editorial cover
+- 2x2 card grid
+- hero stat + stacked rows
+- comparison grid
+- quote card + data box
+- summary checklist
+- CTA strip + footer action row
 
 ### Core rule
 Never build a slide as:
